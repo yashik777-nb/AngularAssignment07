@@ -7,6 +7,7 @@ import { Issue } from './issue.modal';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
+  title: string = 'Demonstration Test Cases';
   issueDescription: string;
   issueSeverity: string;
   issueStatus: string;
